@@ -3,7 +3,10 @@ package hello.core.order;
 import hello.core.member.Member;
 import hello.core.member.MemberRepository;
 import hello.core.member.discount.DiscountPolicy;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component
 public class OrderServiceImpl implements OrderService {
 
   private final MemberRepository memberRepository;
@@ -11,6 +14,7 @@ public class OrderServiceImpl implements OrderService {
   //private final DiscountPolicy discountPolicy = new FixDiscountPolicy(); 인터페이스뿐만 아니라 구체 클래스도 함께의존하고있음 DIP위반
   //private final DiscountPolicy discountPolicy = new RateDiscountPolicy(); //OCP위반
 
+  @Autowired
   public OrderServiceImpl(MemberRepository memberRepository, DiscountPolicy discountPolicy) {
     this.memberRepository = memberRepository;
     this.discountPolicy = discountPolicy;
