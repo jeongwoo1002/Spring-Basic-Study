@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d256d4-0375-4394-81c0-d6caf6dd9103" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/core/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/AutoAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/AutoAppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/discount/FixDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/discount/FixDiscountPolicy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/member/discount/RateDiscountPolicy.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/member/discount/RateDiscountPolicy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/hello/core/order/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/AutoAppConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/test/java/hello/core/scan/AutoAppConfigTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,7 @@
       <recent name="hello.core.scan.filter" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.HelloLombok">
+  <component name="RunManager" selected="JUnit.AutoAppConfigTest.basicScan">
     <configuration name="HelloLombok" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hello.core.HelloLombok" />
       <module name="core.main" />
@@ -135,17 +133,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutowiredTest.AutowiredOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AutoAppConfigTest.basicScan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hello.core.autowired.*" />
+          <option name="PATTERN" value="hello.core.scan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hello.core.autowired" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.autowired.AutowiredTest" />
-      <option name="METHOD_NAME" value="AutowiredOption" />
+      <option name="PACKAGE_NAME" value="hello.core.scan" />
+      <option name="MAIN_CLASS_NAME" value="hello.core.scan.AutoAppConfigTest" />
+      <option name="METHOD_NAME" value="basicScan" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,18 +164,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceImplTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="core.test의 전부 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="core.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.core.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.core.order" />
-      <option name="MAIN_CLASS_NAME" value="hello.core.order.OrderServiceImplTest" />
-      <option name="METHOD_NAME" value="createOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -199,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AutoAppConfigTest.basicScan" />
+        <item itemvalue="JUnit.core.test의 전부" />
+        <item itemvalue="JUnit.core.test의 전부 (1)" />
         <item itemvalue="애플리케이션.HelloLombok" />
         <item itemvalue="JUnit.OrderServiceImplTest" />
-        <item itemvalue="JUnit.OrderServiceImplTest.createOrder" />
-        <item itemvalue="JUnit.AutowiredTest.AutowiredOption" />
-        <item itemvalue="JUnit.core.test의 전부" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +215,7 @@
       <workItem from="1705392139877" duration="11236000" />
       <workItem from="1705463252660" duration="21602000" />
       <workItem from="1705638568787" duration="8827000" />
-      <workItem from="1705728094780" duration="10822000" />
+      <workItem from="1705728094780" duration="15763000" />
     </task>
     <servers />
   </component>
