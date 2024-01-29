@@ -20,7 +20,7 @@ public class OrderServiceImpl implements OrderService {
   //private final DiscountPolicy discountPolicy = new RateDiscountPolicy(); //OCP위반
 //  @RequiredArgsConstructor 이걸 사용하면 아래 코드가 들어가 있어서 쓸 필요 없음
   @Autowired
-  public OrderServiceImpl(MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
+  public OrderServiceImpl(@Qualifier("memoryMemberRepository") MemberRepository memberRepository, @MainDiscountPolicy DiscountPolicy discountPolicy) {
     this.memberRepository = memberRepository;
     this.discountPolicy = discountPolicy;
   }
